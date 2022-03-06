@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Nature</title>
+</head>
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/mountains-6508015_1920.jpg');
+    }
+
+    .left {
+        position: absolute;
+        left: 60px;
+        top: 18px;
+        display: inline-block;
+        /* border: 2px solid red; */
+
+    }
+
+    .left img {
+        width: 60px;
+    }
+
+    .left div {
+        line-height: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 45%;
+        margin: 29px auto;
+        /* border: 2px solid rgb(146, 252, 7); */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid rgb(14, 29, 240); */
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 34px;
+        font-size: 25px;
+    }
+
+    .navbar li a:hover, 
+    .navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 0px 12px;
+        color: black;
+        background-color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 17px;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(75, 75, 75);
+    }
+
+    .container {
+        border: 2px solid black;
+        margin: 105px 79px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 27px;
+    }
+
+    .form.group input {
+        text-align: center;
+        display: block;
+        width: 507px;
+        padding: 3px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        background-color: black;
+        color: white;
+        display: block;
+        width: 507px;
+        margin: 26px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/c5e916895a8f7c79e83587de015e0ab3.png" alt="">
+            <div>Nature</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- Right box for button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join My Website</h1>
+        <form action="noaction.php">
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Email">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Contact">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Address">
+            </div>
+            <button class="btn">Join</button>
+        </form>
+    </div>
+</body>
+
+</html>
